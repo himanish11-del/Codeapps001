@@ -1,0 +1,36 @@
+{
+  "appId": "",
+  "appDisplayName": "Demo Users Directory App",
+  "description": null,
+  "environmentId": "940375d0-c88e-ecaa-b165-ca5f9f784552",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "logoPath": "Default",
+  "localAppUrl": "http://localhost:3000/",
+  "connectionReferences": {
+    "55b128b2-a8ff-4d3b-b49e-8a10cd3dd11b": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_office365users",
+      "displayName": "Office 365 Users",
+      "dataSources": [
+        "office365users"
+      ],
+      "dataSets": {}
+    }
+  },
+  "databaseReferences": {
+    "default.cds": {
+      "state": "Configured",
+      "instanceUrl": "https://biogas-demo.crm4.dynamics.com/",
+      "webApiVersion": "v9.0",
+      "dataSources": {
+        "Accounts": {
+          "entitySetName": "accounts",
+          "logicalName": "account",
+          "isHidden": false
+        }
+      },
+      "version": "v9.0",
+      "environmentVariableName": ""
+    }
+  }
+}
